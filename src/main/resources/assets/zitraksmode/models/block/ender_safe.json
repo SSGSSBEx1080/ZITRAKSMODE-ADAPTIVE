@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "zitraksmode:block/ender_safe_top",
+    "bottom": "zitraksmode:block/ender_safe_top",
+    "side": "zitraksmode:block/ender_safe_side",
+    "front": "zitraksmode:block/ender_safe_front"
+  }
+}

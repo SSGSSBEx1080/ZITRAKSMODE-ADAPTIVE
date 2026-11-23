@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "zitraksmode:block/super_tnt",
+		"particle": "zitraksmode:block/super_tnt"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [4.42188, 5.8125, 8.21875, 10.85938], "texture": "#0"},
+				"east": {"uv": [4.42188, 5.8125, 8.21875, 10.85938], "texture": "#0"},
+				"south": {"uv": [4.42188, 5.8125, 8.21875, 10.85938], "texture": "#0"},
+				"west": {"uv": [4.42188, 5.8125, 8.21875, 10.85938], "texture": "#0"},
+				"up": {"uv": [4.42188, 0.67188, 8.21875, 5.71875], "texture": "#0"},
+				"down": {"uv": [4.42188, 10.95313, 8.21875, 16], "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_top",
+  "textures": {
+    "texture": "zitraksmode:block/ender_trapdoor"
+  }
+}
