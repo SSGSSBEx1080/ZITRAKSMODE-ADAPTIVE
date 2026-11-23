@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EIE",
+    "EEE"
+  ],
+  "key": {
+    "E": { "item": "minecraft:emerald" },
+    "I": { "item": "minecraft:iron_block" }
+  },
+  "result": {
+    "item": "zitraksmode:steel_ball",
+    "count": 1
+  }
+}

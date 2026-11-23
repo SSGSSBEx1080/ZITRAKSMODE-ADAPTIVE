@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:obsidian",
+    "minecraft:crying_obsidian",
+    "minecraft:blackstone",
+    "minecraft:black_concrete",
+    "minecraft:black_wool",
+    "minecraft:black_carpet",
+    "minecraft:coal_block",
+    "minecraft:netherite_block",
+    "minecraft:black_terracotta",
+    "minecraft:black_glazed_terracotta",
+    "minecraft:black_stained_glass",
+    "minecraft:black_stained_glass_pane",
+    "minecraft:black_shulker_box",
+    "minecraft:black_concrete_powder",
+    "minecraft:black_candle",
+    "minecraft:black_banner",
+    "minecraft:black_bed"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "zitraksmode:block/ender_pressure_plate" },
+    "powered=true": { "model": "zitraksmode:block/ender_pressure_plate" }
+  }
+}

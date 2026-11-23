@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "zitraksmode:radish"
+  },
+  "result": "zitraksmode:fried_radish",
+  "experience": 0.1,
+  "cookingtime": 100
+}

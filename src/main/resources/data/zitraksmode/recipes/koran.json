@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ON"
+  ],
+  "key": {
+    "O": { "item": "zitraksmode:vetkhiy_minet" },
+    "N": { "item": "zitraksmode:noviy_omlet" }
+  },
+  "result": {
+    "item": "zitraksmode:koran"
+  }
+}

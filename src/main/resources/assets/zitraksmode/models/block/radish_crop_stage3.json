@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "zitraksmode:block/radish_crop_stage3"
+  }
+}

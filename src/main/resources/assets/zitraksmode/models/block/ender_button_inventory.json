@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "zitraksmode:block/reinforced_ender_glass"
+  }
+}

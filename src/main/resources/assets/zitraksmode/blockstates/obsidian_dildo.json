@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "zitraksmode:block/obsidian_dildo"},
+    "facing=south": {"model": "zitraksmode:block/obsidian_dildo", "y": 180},
+    "facing=east": {"model": "zitraksmode:block/obsidian_dildo", "y": 90},
+    "facing=west": {"model": "zitraksmode:block/obsidian_dildo", "y": 270}
+  }
+}

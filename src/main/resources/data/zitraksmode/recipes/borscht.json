@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "АБВ",
+    "ГДЕ",
+    " Ж "
+  ],
+  "key": {
+    "А": {
+      "item": "minecraft:beetroot"
+    },
+    "Б": {
+      "item": "zitraksmode:radish"
+    },
+    "В": {
+      "item": "minecraft:potato"
+    },
+    "Г": {
+      "item": "minecraft:carrot"
+    },
+    "Д": {
+      "item": "zitraksmode:salt"
+    },
+    "Е": {
+      "item": "minecraft:chicken"
+    },
+    "Ж": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "zitraksmode:borscht",
+    "count": 1
+  }
+}

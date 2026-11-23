@@ -1,0 +1,49 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    32,
+    32
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        -3.75,
+        0
+      ]
+    },
+    "gui": {
+      "translation": [
+        0.25,
+        -10,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        -180,
+        0,
+        -180
+      ],
+      "translation": [
+        -0.5,
+        -9.75,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    }
+  },
+  "textures": {
+    "particle": "zitraksmode:item/death_note"
+  }
+}

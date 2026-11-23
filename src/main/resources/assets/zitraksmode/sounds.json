@@ -1,0 +1,326 @@
+{
+  "custom_explosion": {
+    "subtitle": "subtitles.zitraksmode.custom_explosion",
+    "sounds": [
+      "zitraksmode:custom_explosion"
+    ]
+  },
+  "sniper_shot": {
+    "subtitle": "subtitles.zitraksmode.sniper_shot",
+    "sounds": [
+      "zitraksmode:sniper_shot"
+    ]
+  },
+  "sniper_reload": {
+    "subtitle": "subtitles.zitraksmode.sniper_reload",
+    "sounds": [
+      "zitraksmode:sniper_reload"
+    ]
+  },
+  "sniper_ultimate_charge": {
+    "subtitle": "subtitles.zitraksmode.sniper_ultimate_charge",
+    "sounds": [
+      "zitraksmode:sniper_ultimate_charge"
+    ]
+  },
+  "sniper_ultimate_shot": {
+    "subtitle": "subtitles.zitraksmode.sniper_ultimate_shot",
+    "sounds": [
+      "zitraksmode:sniper_ultimate_shot"
+    ]
+  },
+  "scope_in": {
+    "subtitle": "subtitles.zitraksmode.scope_in",
+    "sounds": [
+      "zitraksmode:scope_in"
+    ]
+  },
+  "scope_out": {
+    "subtitle": "subtitles.zitraksmode.scope_out",
+    "sounds": [
+      "zitraksmode:scope_out"
+    ]
+  },
+  
+  "adun_ambient": {
+    "subtitle": "subtitles.entity.adun_villager.ambient",
+    "sounds": [
+      "zitraksmode:adun_ambient1",
+      "zitraksmode:adun_ambient2",
+      "zitraksmode:adun_ambient3"
+    ]
+  },
+  "adun_trade": {
+    "subtitle": "subtitles.entity.adun_villager.trade", 
+    "sounds": [
+      "zitraksmode:adun_trade1",
+      "zitraksmode:adun_trade2"
+    ]
+  },
+  "adun_hurt": {
+    "subtitle": "subtitles.entity.adun_villager.hurt",
+    "sounds": [
+      "zitraksmode:adun_hurt1",
+      "zitraksmode:adun_hurt2"
+    ]
+  },
+  "adun_death": {
+    "subtitle": "subtitles.entity.adun_villager.death",
+    "sounds": [
+      "zitraksmode:adun_death"
+    ]
+  },
+
+   "case_battle": {
+    "sounds": [
+      {
+        "name": "zitraksmode:case_battle",
+        "stream": false
+      }
+    ]
+  },
+  
+  "made_in_heaven": {
+    "subtitle": "subtitles.zitraksmode.made_in_heaven",
+    "sounds": [
+      {
+        "name": "zitraksmode:madeinheaven/madeinheaven",
+        "stream": true
+      }
+    ]
+  },
+  
+  "katana_slash_1": {
+    "subtitle": "Katana Slash",
+    "sounds": ["zitraksmode:katana/slash_1"]
+  },
+  "katana_slash_2": {
+    "subtitle": "Katana Slash",
+    "sounds": ["zitraksmode:katana/slash_2"]
+  },
+  "katana_slash_3": {
+    "subtitle": "Katana Slash",
+    "sounds": ["zitraksmode:katana/slash_3"]
+  },
+  
+  "katana_charge": {
+    "subtitle": "Katana Charging",
+    "sounds": ["zitraksmode:katana/charge"]
+  },
+  "katana_charged_slash": {
+    "subtitle": "Katana Ultimate Slash",
+    "sounds": ["zitraksmode:katana/charged_slash"]
+  },
+  
+  "katana_parry_1": {
+    "subtitle": "Katana Parry",
+    "sounds": ["zitraksmode:katana/parry_1"]
+  },
+  "katana_parry_2": {
+    "subtitle": "Katana Parry",
+    "sounds": ["zitraksmode:katana/parry_2"]
+  },
+  "katana_parry_3": {
+    "subtitle": "Katana Parry",
+    "sounds": ["zitraksmode:katana/parry_3"]
+  },
+  
+  "katana_equip": {
+    "subtitle": "Katana Equipped",
+    "sounds": ["zitraksmode:katana/equip"]
+  },
+
+
+  
+  "steel_ball_charge": {
+    "category": "player",
+    "sounds": ["zitraksmode:steel_ball_charge"]
+  },
+  "steel_ball_throw": {
+    "category": "player",
+    "sounds": ["zitraksmode:steel_ball_throw"]
+  },
+  "steel_ball_spin": {
+    "category": "neutral",
+    "sounds": ["zitraksmode:steel_ball_spin"]
+  },
+  "steel_ball_return": {
+    "category": "player",
+    "sounds": ["zitraksmode:steel_ball_return"]
+  },
+ 
+  "death_note_ost": {
+    "sounds": [ "zitraksmode:death_note_ost" ],
+    "stream": true
+  },
+
+
+  
+  "gazan_speech_1": {
+    "sounds": [
+      "zitraksmode:gazan_speech_1"
+    ]
+  },
+  "gazan_speech_2": {
+    "sounds": [
+      "zitraksmode:gazan_speech_2"
+    ]
+  },
+  "gazan_speech_3": {
+    "sounds": [
+      "zitraksmode:gazan_speech_3"
+    ]
+  },
+  "gazan_speech_4": {
+    "sounds": [
+      "zitraksmode:gazan_speech_4"
+    ]
+  },
+  "gazan_speech_5": {
+    "sounds": [
+      "zitraksmode:gazan_speech_5"
+    ]
+  },
+  "gazan_speech_6": {
+    "sounds": [
+      "zitraksmode:gazan_speech_6"
+    ]
+  },
+  "gazan_speech_7": {
+    "sounds": [
+      "zitraksmode:gazan_speech_7"
+    ]
+  },
+  "gazan_speech_8": {
+    "sounds": [
+      "zitraksmode:gazan_speech_8"
+    ]
+  },
+  "gazan_speech_9": {
+    "sounds": [
+      "zitraksmode:gazan_speech_9"
+    ]
+  },
+  "gazan_speech_10": {
+    "sounds": [
+      "zitraksmode:gazan_speech_10"
+    ]
+  },
+  "gazan_trade_1": {
+    "sounds": [
+      "zitraksmode:gazan_trade_1"
+    ]
+  },
+  "gazan_trade_2": {
+    "sounds": [
+      "zitraksmode:gazan_trade_2"
+    ]
+  },
+  "gazan_trade_open": {
+    "sounds": [
+      "zitraksmode:gazan_trade_open"
+    ]
+  },
+  "gazan_yes": {
+    "sounds": [
+      "zitraksmode:gazan_yes"
+    ]
+  },
+  "gazan_no": {
+    "sounds": [
+      "zitraksmode:gazan_no"
+    ]
+  },
+  "gazan_hurt_1": {
+    "sounds": [
+      "zitraksmode:gazan_hurt_1"
+    ]
+  },
+  "gazan_hurt_2": {
+    "sounds": [
+      "zitraksmode:gazan_hurt_2"
+    ]
+  },
+  "gazan_death": {
+    "sounds": [
+      "zitraksmode:gazan_death"
+    ]
+  },
+
+
+"mahoraga_ambient": { "category": "hostile", "sounds": ["zitraksmode:mahoraga_ambient"] },
+"mahoraga_hurt": { "category": "hostile", "sounds": ["zitraksmode:mahoraga_hurt"] },
+"mahoraga_death": { "category": "hostile", "sounds": ["zitraksmode:mahoraga_death"] },
+"mahoraga_attack": { "category": "hostile", "sounds": ["zitraksmode:mahoraga_attack"] },
+"mahoraga_adapt": { "category": "hostile", "sounds": ["zitraksmode:mahoraga_adapt"] },
+"mahoraga_scream": { "category": "hostile", "sounds": ["zitraksmode:mahoraga_scream"] },
+"mahoraga_laser": { "category": "hostile", "sounds": ["zitraksmode:mahoraga_laser"] },
+"mahoraga_jump": {
+  "subtitle": "subtitles.zitraksmode.mahoraga_jump",
+  "sounds": [ "zitraksmode:mahoraga_jump" ]
+},
+"mahoraga_speedblitz": {
+  "subtitle": "subtitles.zitraksmode.mahoraga_speedblitz",
+  "sounds": [ "zitraksmode:mahoraga_speedblitz" ]
+},
+"mahoraga_music": {
+  "category": "master",
+  "sounds": [
+    {
+      "name": "zitraksmode:mahoraga_music",
+      "stream": true
+    }
+  ]
+},
+  "vacuum_loop": {
+    "subtitle": "subtitles.zitraksmode.vacuum_loop",
+    "sounds": [
+      { "name": "zitraksmode:vacuum_loop", "stream": true, "volume": 0.55 }
+    ]
+  },
+
+   "chigur_step":{"sounds":["zitraksmode:chigur_step"]},
+  "chigur_shot":{"sounds":["zitraksmode:chigur_shot"]},
+  "chigur_reload":{"sounds":["zitraksmode:chigur_reload"]},
+  "chigur_coin":{"sounds":["zitraksmode:chigur_coin"]},
+  "chigur_vanish":{"sounds":["zitraksmode:chigur_vanish"]},
+  "chigur_airgun":{"sounds":["zitraksmode:chigur_airgun"]},
+  "chigur_speech_1":{"sounds":[{"name":"zitraksmode:chigur_speech_1","stream":true}]},
+  "chigur_speech_2":{"sounds":[{"name":"zitraksmode:chigur_speech_2","stream":true}]},
+  "chigur_speech_3":{"sounds":[{"name":"zitraksmode:chigur_speech_3","stream":true}]},
+  "chigur_speech_4":{"sounds":[{"name":"zitraksmode:chigur_speech_4","stream":true}]},
+  "chigur_speech_5":{"sounds":[{"name":"zitraksmode:chigur_speech_5","stream":true}]},
+  "chigur_speech_6":{"sounds":[{"name":"zitraksmode:chigur_speech_6","stream":true}]},
+
+  "intimate_sound": {
+    "subtitle": "Звук близости",
+    "sounds": [
+      { "name": "zitraksmode:intimate_sound", "stream": false }
+    ]
+  },
+
+    "blowjob_sound": {
+    "subtitle": "Звук минетной активности",
+    "sounds": [
+      { "name": "zitraksmode:blowjob_sound", "stream": false }
+    ]
+  },
+
+    "sandevistan_activate": {
+    "subtitle": "subtitles.zitraksmode.sandevistan_activate",
+    "sounds": ["zitraksmode:sandevistan_activate"]
+  },
+  "sandevistan_deactivate": {
+    "subtitle": "subtitles.zitraksmode.sandevistan_deactivate",
+    "sounds": ["zitraksmode:sandevistan_deactivate"]
+  },
+  "sandevistan_psychosis": {
+    "subtitle": "subtitles.zitraksmode.sandevistan_psychosis",
+    "sounds": ["zitraksmode:sandevistan_psychosis"]
+  },
+  "sandevistan_injection": {
+    "subtitle": "subtitles.zitraksmode.sandevistan_injection",
+    "sounds": ["zitraksmode:sandevistan_injection"]
+  }
+}
+

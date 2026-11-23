@@ -1,0 +1,20 @@
+{
+  "type": "zitraksmode:death_note_requiem_craft",
+  "pattern": [
+    "ANA",
+    "OTO",
+    "KSE"
+  ],
+  "key": {
+    "A": { "item": "minecraft:enchanted_golden_apple" },
+    "N": { "item": "minecraft:netherite_block" },
+    "O": { "item": "minecraft:obsidian" },
+    "T": { "item": "zitraksmode:death_note" },
+    "K": { "item": "minecraft:lectern" },
+    "S": { "item": "minecraft:nether_star" },
+    "E": { "item": "minecraft:enchanting_table" }
+  },
+  "result": {
+    "item": "zitraksmode:death_note_requiem"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RGR",
+    "IDI",
+    "PBS"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "P": {
+      "item": "minecraft:painting"
+    },
+    "B": {
+      "item": "minecraft:writable_book"
+    },
+    "S": {
+      "item": "minecraft:dispenser"
+    }
+  },
+  "result": {
+    "item": "zitraksmode:max_messenger",
+    "count": 1
+  }
+}

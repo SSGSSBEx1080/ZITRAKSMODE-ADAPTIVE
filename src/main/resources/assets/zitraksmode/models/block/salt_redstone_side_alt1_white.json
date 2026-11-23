@@ -1,0 +1,6 @@
+{
+  "parent": "zitraksmode:block/salt_redstone_side_alt_white",
+  "textures": {
+    "line": "zitraksmode:block/salt_redstone_dust_line1_white"
+  }
+}

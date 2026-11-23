@@ -1,0 +1,15 @@
+{
+  "type": "zitraksmode:death_note_craft",
+  "pattern": [
+    "BBB",
+    "BKB",
+    "BBB"
+  ],
+  "key": {
+    "B": { "tag": "zitraksmode:death_note_black_blocks" },
+    "K": { "item": "minecraft:writable_book" }
+  },
+  "result": {
+    "item": "zitraksmode:death_note"
+  }
+}

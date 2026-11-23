@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "zitraksmode:block/labubu_buddha",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "zitraksmode:block/labubu_buddha",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "zitraksmode:block/labubu_buddha",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "zitraksmode:block/labubu_buddha",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "itemGroup.zitraksmode": "Zitraks Mode",
+  
+  "block.zitraksmode.one": "Блок Один",
+  "block.zitraksmode.two": "Блок Два", 
+  "block.zitraksmode.three": "Блок Три",
+  "block.zitraksmode.four": "Блок Четыре",
+  "block.zitraksmode.five": "Блок Пять",
+  "block.zitraksmode.six": "Блок Шесть",
+  "block.zitraksmode.seven": "Блок Семь",
+  "block.zitraksmode.eight": "Блок Восемь",
+  "block.zitraksmode.nine": "Блок Девять",
+  "block.zitraksmode.zero": "Блок Ноль",
+
+  "item.zitraksmode.tnt_helmet": "ТНТ Шлем",
+  "item.zitraksmode.tnt_chestplate": "ТНТ Нагрудник",
+  "item.zitraksmode.tnt_leggings": "ТНТ Штаны",
+  "item.zitraksmode.tnt_boots": "ТНТ Поножи",
+  "enchantment.zitraksmode.bombardier": "Бомбардир",
+  "enchantment.zitraksmode.peacemaker": "Миротворец",
+  "item.zitraksmode.tnt_repair_kit": "Ремонтный ТНТ-набор",
+  "entity.minecraft.villager.zitraksmode.demolitionist": "Подрывник",
+
+  "item.zitraksmode.bullet": "Пуля",
+  "item.zitraksmode.iron_sniper": "Железная Снайперка",
+  "item.zitraksmode.golden_sniper": "Золотая Снайперка",
+  "item.zitraksmode.diamond_sniper": "Алмазная Снайперка",
+  "item.zitraksmode.netherite_sniper": "Незеритовая Снайперка",
+  "enchantment.zitraksmode.how_he_pierced_me": "Как он меня прошил?",
+  "enchantment.zitraksmode.double_penetration": "Двойное проникновение",
+  "enchantment.zitraksmode.nimble_fingers": "Умелые пальчики",
+
+  "item.zitraksmode.miner_helmet": "Каска Шахтёра",
+  "enchantment.zitraksmode.peresvet": "Пересвет",
+
+  "item.zitraksmode.adun_villager_spawn_egg": "Яйцо призыва Жителя-Дауна",
+
+  "entity.zitraksmode.adun_villager.none": "Житель-Даун",
+  "entity.minecraft.villager.zitraksmode.adun_villager.none": "Житель-Даун",
+
+
+  "item.zitraksmode.labubu_red": "Красный Лабубу",
+  "item.zitraksmode.labubu_blue": "Синий Лабубу",
+  "item.zitraksmode.labubu_yellow": "Желтый Лабубу",
+  "item.zitraksmode.labubu_white": "Белый Лабубу",
+  "item.zitraksmode.labubu_black": "Черный Лабубу",
+  "item.zitraksmode.labubu_green": "Зеленый Лабубу",
+  
+  "item.zitraksmode.labubu_purple": "Фиолетовый Лабубу",
+  "item.zitraksmode.labubu_black_white": "Черно-белый Лабубу",
+  "item.zitraksmode.labubu_striped": "Полосатый Лабубу",
+  
+  "item.zitraksmode.labubu_kazakh": "Казахский Лабубу",
+  "item.zitraksmode.labubu_ukrainian": "Украинский Лабубу",
+  "item.zitraksmode.labubu_japanese": "Японский Лабубу",
+  "item.zitraksmode.labubu_top_hat": "Лабубу в цилиндре",
+  "item.zitraksmode.labubu_faseless": "Безликий Лабубу",
+  
+  "item.zitraksmode.labubu_russian": "Российский Лабубу",
+  "item.zitraksmode.labubu_neon": "Сломанный Лабубу",
+  "item.zitraksmode.labubu_litvin": "Литвин Лабубу",
+  "item.zitraksmode.labubu_anonymous": "Лабубу-анонимус",
+  "item.zitraksmode.labubu_demon": "Демон Лабубу",
+  "item.zitraksmode.labubu_angel": "Ангел Лабубу",
+  
+  "item.zitraksmode.labubu_galactic": "Галактический Лабубу",
+  "item.zitraksmode.labubu_rainbow": "Радужный Лабубу",
+  "item.zitraksmode.labubu_golden": "Золотой Лабубу",
+  "item.zitraksmode.labubu_buddha": "Будда Лабубу",
+  "item.zitraksmode.labubu_booba": "ЛаBOOBA",
+  "item.zitraksmode.labubu_anime": "Аниме Лабубу",
+
+  "item.zitraksmode.labubu_box": "Лабубу-бокс",
+  "block.zitraksmode.labubu_box": "Лабубу-бокс",
+
+  
+
+  "block.zitraksmode.reinforced_ender_glass": "Закалённое Эндер-стекло",
+  "block.zitraksmode.ender_furnace": "Эндер-печь",
+  "block.zitraksmode.ender_safe": "Эндер-сейф",
+  "block.zitraksmode.ender_door": "Эндер-дверь",
+  "block.zitraksmode.ender_trapdoor": "Эндер-Люк",
+  "block.zitraksmode.ender_button": "Эндер-кнопка",
+  "block.zitraksmode.ender_pressure_plate": "Эндер нажимная плита",
+  
+  "_comment": "===== MADE IN HEAVEN =====",
+  "item.zitraksmode.made_in_heaven": "Made in Heaven",
+  "subtitles.zitraksmode.made_in_heaven": "Время ускоряется",
+  "enchantment.zitraksmode.yobyr_mamok": "Ёбырь мамок",
+  "enchantment.zitraksmode.hochu_labubu": "Хочу Лабубу, но, не хочу хуй сосать",
+
+  "block.zitraksmode.mud_dildo": "Дилдо из грязи",
+  "block.zitraksmode.stone_dildo": "Дилдо из камня",
+  "block.zitraksmode.iron_dildo": "Дилдо из железа",
+  "block.zitraksmode.gold_dildo": "Дилдо из золота",
+  "block.zitraksmode.diamond_dildo": "Дилдо из алмаза",
+  "block.zitraksmode.emerald_dildo": "Дилдо из изумруда",
+  "block.zitraksmode.obsidian_dildo": "Дилдо из обсидиана",
+  "block.zitraksmode.netherite_dildo": "Дилдо из незерита",
+  "block.zitraksmode.tnt_dildo": "Дилдо из TNT",
+  "enchantment.zitraksmode.morichek": "И теперь я моричёк...",
+  "enchantment.zitraksmode.bed_wars": "БЭД Варс",
+
+  
+  "item.zitraksmode.creeper_eggs": "Яйца Крипера",
+  "item.zitraksmode.cooked_creeper_eggs": "Жареные Яйца Крипера",
+  "item.zitraksmode.charged_creeper_eggs": "Заряженные Яйца Крипера",
+  "block.zitraksmode.creeper_statue": "Статуя Крипера",
+  "block.zitraksmode.super_tnt": "Супер-TNT",
+  "item.zitraksmode.super_tnt_minecart": "Вагонетка с Супер-TNT",
+
+  "item.zitraksmode.jbl_speaker": "JBL-Колонка",
+
+  "item.zitraksmode.katana": "Катана",
+  "item.zitraksmode.katana.desc": "Огромная 2-метровая катана со смертоносными комбо-атаками",
+  "enchantment.zitraksmode.world_slash": "Мировой разрез",
+  "enchantment.zitraksmode.mining_industry": "Горнодобывающая промышленность",
+
+  "item.zitraksmode.aqualung": "Акваланг",
+  "enchantment.zitraksmode.vodohlebus": "Водохлёбус",
+  "enchantment.zitraksmode.zhirny_pidor": "Жирный пидор",
+  
+  "block.zitraksmode.printer_3d": "3D Принтер",
+  "container.zitraksmode.printer_3d": "3D Принтер",
+  "enchantment.zitraksmode.baryga": "Барыга",
+  "enchantment.zitraksmode.nahuya": "Нахуя?",
+  "enchantment.zitraksmode.zaebis": "Заебись",
+
+  "block.zitraksmode.hentai_block": "Блок Порнухи/Хентая",
+
+  "item.zitraksmode.vetkhiy_minet": "Ветхий Минет",
+  "item.zitraksmode.noviy_omlet": "Новый Омлет",
+  "item.zitraksmode.koran": "Коран",
+
+  "item.zitraksmode.steel_ball": "Стальной шар",
+  "entity.zitraksmode.steel_ball": "Стальной шар",
+  "enchantment.zitraksmode.ball_breaker": "Ball Breaker",
+
+  "item.zitraksmode.death_note": "Тетрадь смерти",
+  "item.zitraksmode.death_note_requiem": "Тетрадь смерти Реквием",
+
+  "advancement.zitraksmode.root.title": "ZitraksMode",
+  "advancement.zitraksmode.root.description": "Добро пожаловать в ZitraksMode!",
+
+  "entity.zitraksmode.gazan": "Газан",
+  "item.zitraksmode.gazan_spawn_egg": "Яйцо призыва Газана",
+  "entity.minecraft.villager.zitraksmode.gazan.none": "Газан",
+
+  "entity.zitraksmode.mahoraga": "Махорага",
+  "item.zitraksmode.mahoraga_scroll": "Свиток призыва Махораги",
+  
+  "item.zitraksmode.sperm_bucket": "Ведро спермы",
+  "block.zitraksmode.copper_wool": "Медная шерсть",
+  "item.zitraksmode.copper_wool": "Медная шерсть",
+  "item.zitraksmode.spanish_boots": "Испанские сапоги",
+
+  "item.zitraksmode.max_messenger": "MAX",
+  "max.zitraksmode.select_contact": "Выберите кому отправить сообщение",
+  "max.zitraksmode.save_profile": "Сохранить",
+
+  "item.zitraksmode.scooter": "Самокат",
+  "block.zitraksmode.charging_port": "Порт зарядки",
+  "item.zitraksmode.charging_port": "Порт зарядки",
+  "key.categories.zitraksmode.scooter": "Самокат",
+  "key.zitraksmode.scooter_horn": "Сигнал самоката",
+  "key.zitraksmode.scooter_music": "Музыка самоката",
+  "key.zitraksmode.scooter_pickup": "Сложить самокат",
+  "key.zitraksmode.scooter_light": "Фара самоката",
+
+  "item.zitraksmode.cloak_crocodile": "Плащ Крокодайла",
+  "item.zitraksmode.cloak_akainu": "Плащ Акаину",
+  "item.zitraksmode.cloak_aokiji": "Плащ Аокидзи",
+  "item.zitraksmode.cloak_kizaru": "Плащ Кизару",
+  "item.zitraksmode.cloak_sengoku": "Плащ Сэнгоку",
+  "item.zitraksmode.cloak_whitebeard": "Плащ Белоуса",
+
+  "tooltip.zitraksmode.cloak.logia": "Логия",
+  "tooltip.zitraksmode.cloak.absolute": "Особая абсолютная защита",
+  "tooltip.zitraksmode.cloak.max_charge": "Максимальный заряд: %s",
+  "tooltip.zitraksmode.cloak.logia_detail": "Снаряды и обычные атаки проходят насквозь",
+  "tooltip.zitraksmode.cloak.water": "Слабость: вода",
+  "tooltip.zitraksmode.cloak.haki": "Пробитие: катана или незерит",
+
+  "item.zitraksmode.vacuum": "Пылесос",
+  "container.zitraksmode.vacuum": "Пылесос",
+  "enchantment.zitraksmode.airuhan": "Воздухан",
+  "enchantment.zitraksmode.airuhan.desc": "Увеличивает дальность всасывания и силу выдува сзади",
+  "tooltip.zitraksmode.vacuum.mode": "Режим: %s",
+  "tooltip.zitraksmode.vacuum.power": "Сила всасывания: %s/10",
+  "tooltip.zitraksmode.vacuum.range": "Дальность: %s блоков",
+  "tooltip.zitraksmode.vacuum.storage": "Хранилище: %s/%s ячеек",
+  "tooltip.zitraksmode.vacuum.enabled": "Всасывание: ВКЛ",
+  "tooltip.zitraksmode.vacuum.disabled": "Всасывание: ВЫКЛ",
+
+  "entity.zitraksmode.anton_chigur": "Антон Чигур",
+  "item.zitraksmode.anton_chigur_spawn_egg": "Яйцо призыва Антона Чигура",
+  "item.zitraksmode.chigur_shotgun": "Дробовик Чигура",
+  "item.zitraksmode.chigur_coin": "Монетка Чигура",
+  "subtitles.zitraksmode.chigur_shot": "Чигур стреляет",
+  "subtitles.zitraksmode.chigur_reload": "Чигур перезаряжает дробовик",
+  "subtitles.zitraksmode.chigur_coin": "Подбрасывается монетка",
+  "subtitles.zitraksmode.chigur_vanish": "Чигур исчезает",
+  "subtitles.zitraksmode.chigur_airgun": "Срабатывает пневматическое устройство",
+
+  "item.zitraksmode.gost_doctorskaya_sausage": "Докторская колбаса",
+
+  "item.zitraksmode.salt": "Соль",
+  "block.zitraksmode.salt_trail": "Соль",
+  "block.zitraksmode.salt_ore": "Соляная руда",
+  "item.zitraksmode.salt_ore": "Соляная руда",
+  "item.zitraksmode.radish": "Редиска",
+  "item.zitraksmode.fried_radish": "Жареная редиска",
+  "item.zitraksmode.borscht": "Борщ",
+  "item.zitraksmode.nina_knife": "Нож",
+
+  "item.zitraksmode.medusa": "Медуза",
+
+"item.zitraksmode.sandevistan": "Сандевистан",
+"item.zitraksmode.immunosuppressant": "Иммуносупрессант",
+"key.categories.zitraksmode.sandevistan": "Сандевистан",
+"key.zitraksmode.sandevistan_activate": "Активировать Сандевистан",
+"hud.zitraksmode.sandevistan": "Сандевистан",
+"hud.zitraksmode.cyberpsychosis": "Киберпсихоз",
+"hud.zitraksmode.cooldown": "Перезарядка",
+"subtitles.zitraksmode.sandevistan_activate": "Сандевистан активирован",
+"subtitles.zitraksmode.sandevistan_deactivate": "Сандевистан деактивирован",
+"subtitles.zitraksmode.sandevistan_psychosis": "Начинается киберпсихоз",
+"subtitles.zitraksmode.sandevistan_injection": "Иммуносупрессант введён",
+"advancement.zitraksmode.sandevistan_obtained.title": "Бегущий по краю",
+"advancement.zitraksmode.sandevistan_obtained.description": "Получите киберимплант «Сандевистан»"
+
+}
