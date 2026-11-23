@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+
+[[mods]]
+modId="zitraksmode"
+version="1.19.2-1.2.0"
+displayName="Zitraks Mode"
+logoFile="zitraksmode_logo.png" 
+description = """
+Самый крутой мод на майнкрафт. Подходит для прохождения игры либо выживания в кайф. Своим существованием отражает концепцию хочешь сделать хорошо - сделай это сам.
+📌 Контакты автора:
+- YouTube: https://www.youtube.com/@qls8571
+- TikTok: https://www.tiktok.com/@qls_senya1488?lang=ru-RU
+- Telegram (по вопросам): @QLSCENR
+
+Полная история разработки в файле HISTORY.md (в составе скачанного архива).
+"""
+authors="QLS СЕНЯ"
+
+[[dependencies.zitraksmode]]
+modId="forge"
+mandatory=true
+versionRange="[40,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.zitraksmode]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.19.2,1.20)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.zitraksmode]]
+modId="geckolib3"
+mandatory=true
+versionRange="[3.1.31,)"
+ordering="NONE"
+side="BOTH"

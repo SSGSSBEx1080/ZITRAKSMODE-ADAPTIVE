@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.zitraksmode.mixin",
+  "plugin": "com.example.zitraksmode.mixin.plugin.ZitraksModeMixinPlugin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "zitraksmode.refmap.json",
+
+  "mixins": [
+    "CowMergedMixin",
+    "RavagerMergedMixin",
+    "EnchantmentHelperMixin",
+    "VacuumEnchantmentHelperMixin",
+    "MedusaEnchantmentHelperMixin",
+    "PrinterBlockEntitySyncLimitMixin",
+    "ZombieVillagerInvokerMixin"
+  ],
+
+  "client": [
+    "CreeperRendererMixin",
+    "CowRendererMixin",
+    "RavagerRendererMixin",
+    "LivingEntityRendererMedusaMixin",
+    "EyesLayerMedusaMixin",
+    "VacuumAttackAnimationMixin",
+    "PrinterRecipeLimitScreenMixin",
+    "PrinterScrollBarDragMixin"
+  ],
+
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
