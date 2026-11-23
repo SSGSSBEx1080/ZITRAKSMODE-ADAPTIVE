@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "zitraksmode:block/ender_safe" },
+    "facing=south": { "model": "zitraksmode:block/ender_safe", "y": 180 },
+    "facing=west": { "model": "zitraksmode:block/ender_safe", "y": 270 },
+    "facing=east": { "model": "zitraksmode:block/ender_safe", "y": 90 }
+  }
+}
