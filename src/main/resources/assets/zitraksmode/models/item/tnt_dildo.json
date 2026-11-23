@@ -1,0 +1,70 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "zitraksmode:block/tnt",
+		"particle": "zitraksmode:block/tnt"
+	},
+	"elements": [
+		{
+			"from": [0.03, 0, 5.49],
+			"to": [15.95, 5.335, 10.34],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.22, 0, 5.005]},
+			"faces": {
+				"north": {"uv": [4.28844, 5.76871, 8.27211, 10.86259], "texture": "#0"},
+				"east": {"uv": [4.2449, 5.81224, 8.35918, 10.77551], "texture": "#0"},
+				"south": {"uv": [4.37551, 5.76871, 8.27211, 10.81905], "texture": "#0"},
+				"west": {"uv": [4.28844, 5.81224, 8.18503, 10.77551], "texture": "#0"},
+				"up": {"uv": [4.41905, 0.7619, 8.18503, 5.6381], "texture": "#0"},
+				"down": {"uv": [4.46259, 10.94966, 8.1415, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.23, 5.335, 5.49],
+			"to": [10.825, 20.37, 10.34],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.22, 0, 5.005]},
+			"faces": {
+				"north": {"uv": [4.46259, 5.79048, 8.40272, 10.86259], "texture": "#0"},
+				"east": {"uv": [4.37551, 5.81224, 8.27211, 10.86259], "texture": "#0"},
+				"south": {"uv": [4.33197, 5.81224, 8.27211, 10.86259], "texture": "#0"},
+				"west": {"uv": [4.37551, 5.81224, 8.35918, 10.86259], "texture": "#0"},
+				"up": {"uv": [4.41905, 0.71837, 8.18503, 5.50748], "texture": "#0"},
+				"down": {"uv": [0, 3.5, 2.75, 7], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [108.75, 0, 0],
+			"translation": [-6, 6, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [17.5, 0, 0],
+			"translation": [-5.75, -18.5, -2.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [62.4, -71.15, 73.44],
+			"translation": [-1.25, 6.75, 1.5],
+			"scale": [0.51, 0.57, 0.61]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-94.26, 67.07, 95.44],
+			"translation": [-1.75, 7, 2],
+			"scale": [0.63, 0.66, 0.65]
+		},
+		"ground": {
+			"translation": [0, 4.5, 0]
+		},
+		"gui": {
+			"translation": [0, -1.25, 0],
+			"scale": [0.71, 0.68, 1]
+		},
+		"head": {
+			"translation": [0, 13.75, 0]
+		},
+		"fixed": {
+			"translation": [0, -2, 0],
+			"scale": [0.99, 0.86, 1]
+		}
+	}
+}
