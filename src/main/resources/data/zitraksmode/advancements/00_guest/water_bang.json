@@ -1,0 +1,18 @@
+{
+  "parent": "zitraksmode:00_guest/nether_bang",
+  "display": {
+    "icon": { "item": "minecraft:water_bucket" },
+    "title": "§bПервый раз в воде",
+    "description": "§7Ты потрахался в воде. Мокрая сучка блядская.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": { "experience": 10 }
+}

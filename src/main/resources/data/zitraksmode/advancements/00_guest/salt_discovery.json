@@ -1,0 +1,31 @@
+{
+  "parent": "zitraksmode:root",
+  "display": {
+    "icon": {
+      "item": "zitraksmode:salt"
+    },
+    "title": "Питерский минерал",
+    "description": "Когда сахар и соль выглядят одинаково, и ты случайно изнасиловал соседского хомяка.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "get_salt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zitraksmode:salt"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}

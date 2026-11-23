@@ -1,0 +1,18 @@
+{
+  "parent": "zitraksmode:root",
+  "display": {
+    "icon": { "item": "minecraft:player_head" },
+    "title": "§dПервый раз не пидорас.",
+    "description": "§7Сорвал вишенку, лишился девственности, потерял невинность, ебануло шкибиди",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": { "experience": 10 }
+}

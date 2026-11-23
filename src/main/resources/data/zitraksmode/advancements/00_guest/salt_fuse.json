@@ -1,0 +1,25 @@
+{
+  "parent": "zitraksmode:00_guest/salt_discovery",
+  "display": {
+    "icon": {
+      "item": "zitraksmode:salt"
+    },
+    "title": "Соляной фитиль",
+    "description": "Соль тоже умеет проводить редстоун сигнал. Правда, только один раз.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "place_salt": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "zitraksmode:salt_trail"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}

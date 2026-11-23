@@ -1,0 +1,31 @@
+{
+  "parent": "zitraksmode:00_guest/radish",
+  "display": {
+    "icon": {
+      "item": "zitraksmode:fried_radish"
+    },
+    "title": "Жареная редиска",
+    "description": "Пожарь редиску на огне.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "get_fried_radish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zitraksmode:fried_radish"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}

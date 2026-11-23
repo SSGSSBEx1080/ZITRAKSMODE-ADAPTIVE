@@ -1,0 +1,31 @@
+{
+  "parent": "zitraksmode:00_guest/salt_fuse",
+  "display": {
+    "icon": {
+      "item": "zitraksmode:radish"
+    },
+    "title": "Свежая редиска",
+    "description": "Первый урожай с грядки деревенской Прилуки.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "get_radish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zitraksmode:radish"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}

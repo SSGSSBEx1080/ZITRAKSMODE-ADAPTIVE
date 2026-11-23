@@ -1,0 +1,31 @@
+{
+  "parent": "zitraksmode:00_guest/borscht",
+  "display": {
+    "icon": {
+      "item": "zitraksmode:nina_knife"
+    },
+    "title": "Ножик керамбит голд",
+    "description": "Острый, быстрый и полезный в хозяйстве. ♪Я нож воткну, и проверну, чтоб ты почувствовал вину...♪",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "get_knife": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zitraksmode:nina_knife"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "zitraksmode:00_guest/caring",
+  "display": {
+    "icon": { "item": "minecraft:clock" },
+    "title": "§eЕбанутый дрочер без мамы",
+    "description": "§7Ты использовал /sex 10 раз за день. Ты либо еблан, либо тебе настолько нехуй делать.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": { "experience": 20 }
+}

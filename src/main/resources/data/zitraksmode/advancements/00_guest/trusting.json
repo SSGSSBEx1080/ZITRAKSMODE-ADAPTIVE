@@ -1,0 +1,18 @@
+{
+  "parent": "zitraksmode:00_guest/maniac",
+  "display": {
+    "icon": { "item": "minecraft:player_head" },
+    "title": "§bДоверчивый",
+    "description": "§7Ты принял секс от незнакомца. Ты либо очень смелый, либо очень тупой. Лови букетик венерический сука хахаха.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": { "experience": 10 }
+}

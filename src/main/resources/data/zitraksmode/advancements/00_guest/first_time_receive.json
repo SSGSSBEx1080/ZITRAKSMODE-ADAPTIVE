@@ -1,0 +1,18 @@
+{
+  "parent": "zitraksmode:00_guest/first_time",
+  "display": {
+    "icon": { "item": "minecraft:player_head" },
+    "title": "§dПервый раз пидорас",
+    "description": "§7Ты принял приглашение. Теперь тебя выебали и опустили, добро пожаловать в партию Единый Майнкрафт",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": { "experience": 10 }
+}
