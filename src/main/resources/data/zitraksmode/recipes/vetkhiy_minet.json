@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " PP",
+    " P ",
+    "PP "
+  ],
+  "key": {
+    "P": { "item": "minecraft:porkchop" }
+  },
+  "result": {
+    "item": "zitraksmode:vetkhiy_minet"
+  }
+}

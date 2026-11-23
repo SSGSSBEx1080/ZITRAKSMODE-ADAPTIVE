@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GDG",
+    "LCL",
+    "GAG"
+  ],
+  "key": {
+    "G": { "item": "minecraft:glowstone" },
+    "D": { "item": "minecraft:diamond" },
+    "L": { "item": "minecraft:sea_lantern" },
+    "A": { "item": "minecraft:amethyst_shard" },
+    "C": { "item": "zitraksmode:cloak_crocodile" }
+  },
+  "result": {
+    "item": "zitraksmode:cloak_kizaru"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "zitraksmode:six" },
+    { "item": "zitraksmode:seven" }
+  ],
+  "result": {
+    "item": "zitraksmode:gazan_spawn_egg",
+    "count": 1
+  }
+}

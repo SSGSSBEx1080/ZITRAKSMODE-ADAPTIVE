@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RVB",
+    "MQE",
+    "PAN"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "V": {
+      "item": "minecraft:green_dye"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    },
+    "M": [
+      {
+        "item": "minecraft:milk_bucket"
+      },
+      {
+        "item": "zitraksmode:sperm_bucket"
+      }
+    ],
+    "Q": {
+      "item": "minecraft:quartz_block"
+    },
+    "E": {
+      "item": "minecraft:end_rod"
+    },
+    "P": {
+      "item": "minecraft:painting"
+    },
+    "A": {
+      "item": "minecraft:black_wool"
+    },
+    "N": {
+      "item": "minecraft:orange_wool"
+    }
+  },
+  "result": {
+    "item": "zitraksmode:hentai_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "T  ",
+    "I  ",
+    "WSW"
+  ],
+  "key": {
+    "T": { "item": "minecraft:stick" },
+    "I": { "item": "minecraft:iron_bars" },
+    "W": { "item": "minecraft:grindstone" },
+    "S": { "item": "minecraft:heavy_weighted_pressure_plate" }
+  },
+  "result": {
+    "item": "zitraksmode:scooter",
+    "count": 1
+  }
+}

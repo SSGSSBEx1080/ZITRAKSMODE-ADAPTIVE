@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MFM",
+    "BCB",
+    "MLM"
+  ],
+  "key": {
+    "M": { "item": "minecraft:magma_block" },
+    "F": { "item": "minecraft:fire_charge" },
+    "B": { "item": "minecraft:blaze_powder" },
+    "L": { "item": "minecraft:lava_bucket" },
+    "C": { "item": "zitraksmode:cloak_crocodile" }
+  },
+  "result": {
+    "item": "zitraksmode:cloak_akainu"
+  }
+}

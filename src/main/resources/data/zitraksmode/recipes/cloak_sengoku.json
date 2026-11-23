@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "KBK",
+    "ILI",
+    "GAG"
+  ],
+  "key": {
+    "K": { "item": "minecraft:cookie" },
+    "B": { "item": "zitraksmode:labubu_buddha" },
+    "G": { "item": "minecraft:gold_block" },
+    "I": { "item": "minecraft:gold_ingot" },
+    "L": { "item": "minecraft:enchanted_golden_apple" },
+    "A": { "tag": "zitraksmode:admiral_cloaks" }
+  },
+  "result": {
+    "item": "zitraksmode:cloak_sengoku"
+  }
+}

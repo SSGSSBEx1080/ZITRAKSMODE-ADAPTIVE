@@ -1,0 +1,35 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.death_note_requiem",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "l_note",
+					"pivot": [3, 6, 0.325],
+					"cubes": [
+						{"origin": [-2.425, 2.303, 0.4785], "size": [5.365, 9.135, 0.087], "uv": [19, 1]},
+						{"origin": [-2.28, 2.448, 0.3385], "size": [5.22, 8.845, 0.14], "uv": [18, 21], "mirror": true},
+						{"origin": [2.94, 2.303, 0.3265], "size": [0.058, 9.135, 0.239], "uv": [11, 15]}
+					]
+				},
+				{
+					"name": "r_note",
+					"pivot": [3, 6, 0],
+					"cubes": [
+						{"origin": [-2.28, 2.448, 0.1885], "size": [5.22, 8.845, 0.14], "uv": [18, 21], "mirror": true},
+						{"origin": [2.94, 2.303, 0.1015], "size": [0.058, 9.135, 0.239], "uv": [11, 14]},
+						{"origin": [-2.425, 2.303, 0.1015], "size": [5.365, 9.135, 0.087], "uv": [19, 1], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}
