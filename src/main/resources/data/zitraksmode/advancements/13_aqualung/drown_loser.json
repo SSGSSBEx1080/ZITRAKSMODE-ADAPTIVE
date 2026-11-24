@@ -1,0 +1,16 @@
+{
+  "parent": "zitraksmode:13_aqualung/deep_breath",
+  "display": {
+    "icon": { "item": "minecraft:experience_bottle" },
+    "title": "§c§lЕбать ты лох",
+    "description": "§7Утонул с аквалангом на спине, ёбаный даун лол, сука я в ахуе тупень блять",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "drown": { "trigger": "zitraksmode:aqualung_drown" }
+  },
+  "rewards": { "experience": 0 }
+}

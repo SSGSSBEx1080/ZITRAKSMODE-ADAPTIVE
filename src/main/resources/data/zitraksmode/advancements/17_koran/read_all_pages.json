@@ -1,0 +1,16 @@
+{
+  "parent": "zitraksmode:17_koran/craft_koran",
+  "display": {
+    "icon": { "item": "minecraft:book" },
+    "title": "§bЗнание — сила",
+    "description": "§7Прочитай все страницы Корана до конца. Овцу трах-трах, метро бабах.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "read": { "trigger": "zitraksmode:koran_fully_read" }
+  },
+  "rewards": { "experience": 20 }
+}

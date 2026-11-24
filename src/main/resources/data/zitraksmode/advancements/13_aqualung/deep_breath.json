@@ -1,0 +1,16 @@
+{
+  "parent": "zitraksmode:13_aqualung/craft_aqualung",
+  "display": {
+    "icon": { "item": "minecraft:water_bucket" },
+    "title": "§aТест на курильщика",
+    "description": "§7Попробуй задержать дыхание на 67 секунд ёпта. Находись под водой 67 секунд задержав дыхание не выныривая.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "deep": { "trigger": "zitraksmode:aqualung_deep_breath" }
+  },
+  "rewards": { "experience": 10 }
+}

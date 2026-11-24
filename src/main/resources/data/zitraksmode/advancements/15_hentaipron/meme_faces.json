@@ -1,0 +1,16 @@
+{
+  "parent": "zitraksmode:15_hentaipron/place_hentai",
+  "display": {
+    "icon": { "item": "minecraft:end_rod" },
+    "title": "§bСмехуятинка",
+    "description": "§7Получи 2+ грани с мемами на одном хентай-порно блоке.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "meme": { "trigger": "zitraksmode:hentai_meme_faces" }
+  },
+  "rewards": { "experience": 30 }
+}

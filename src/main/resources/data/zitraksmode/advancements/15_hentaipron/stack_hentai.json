@@ -1,0 +1,21 @@
+{
+  "parent": "zitraksmode:15_hentaipron/meme_faces",
+  "display": {
+    "icon": { "item": "minecraft:milk_bucket" },
+    "title": "§c§lАдский дрочила",
+    "description": "§7Скрафти целый стак блоков хентая. Ты знаешь зачем...",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "stack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["zitraksmode:hentai_block"], "count": { "min": 64 } }]
+      }
+    }
+  },
+  "rewards": { "experience": 50 }
+}
