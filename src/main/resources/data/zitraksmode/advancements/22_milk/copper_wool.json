@@ -1,0 +1,31 @@
+{
+  "parent": "zitraksmode:22_milk/copper_bull",
+  "display": {
+    "icon": {
+      "item": "zitraksmode:copper_wool"
+    },
+    "title": "§6Медная шерсть",
+    "description": "§7Биологический материал из медного быка. Джокер 1488.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "has_copper_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zitraksmode:copper_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 35
+  }
+}

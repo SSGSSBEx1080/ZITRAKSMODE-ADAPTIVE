@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_super_tnt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["zitraksmode:super_tnt"] }]
+      }
+    },
+    "has_minecart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:minecart"] }]
+      }
+    }
+  },
+  "requirements": [ ["has_super_tnt", "has_minecart"] ],
+  "rewards": {
+    "recipes": ["zitraksmode:super_tnt_minecart"]
+  }
+}

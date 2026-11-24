@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {"recipes": ["zitraksmode:netherite_dildo"]},
+  "criteria": {
+    "has_netherite_block": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:netherite_block"]}]}},
+    "has_the_recipe": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "zitraksmode:netherite_dildo"}}
+  },
+  "requirements": [["has_netherite_block", "has_the_recipe"]]
+}

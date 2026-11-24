@@ -1,0 +1,20 @@
+{
+  "parent": "zitraksmode:18_ball/golden_rotation",
+  "display": {
+    "icon": { "item": "minecraft:zombie_head" },
+    "title": "Казнь мобов",
+    "description": "Убей любого моба стальным шаром Джайро. Рутина потомственного палача.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "zitraksmode:steel_ball_kill"
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}

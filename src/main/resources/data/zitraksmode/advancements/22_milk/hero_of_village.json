@@ -1,0 +1,14 @@
+{
+  "parent": "zitraksmode:22_milk/bull_milking",
+  "display": {
+    "icon": { "item": "zitraksmode:sperm_bucket" },
+    "title": "§7Хранитель семени",
+    "description": "§7Обезвредьте разорителя секретным способом",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": { "milked_ravager": { "trigger": "minecraft:impossible" } },
+  "rewards": { "experience": 10 }
+}

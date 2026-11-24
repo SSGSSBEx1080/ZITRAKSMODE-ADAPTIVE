@@ -1,0 +1,18 @@
+{
+  "parent": "zitraksmode:25_cloaks/sengoku",
+  "display": {
+    "icon": { "item": "zitraksmode:cloak_whitebeard" },
+    "title": { "text": "Но даже после смерти он", "color": "white", "bold": true, "italic": true },
+    "description": { "text": " не упал. Не смотря на ужасные раны покрывающие его тело,он так и не был повержен своими врагами. Этот человек был настоящим монстром. В этой войне 287 раз его ранили мечем, 152 пули попали в его тело и 46 пушечных ядер в него выстрелило. Но...на его гордой спине...за всю пиратскую жизнь...не появилось ни одного шрама, как доказательство того, что он никогда не отступал!", "color": "gray", "italic": true },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "has_whitebeard_cloak": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": [ "zitraksmode:cloak_whitebeard" ] } ] }
+    }
+  }
+}

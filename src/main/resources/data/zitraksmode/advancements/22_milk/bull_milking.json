@@ -1,0 +1,14 @@
+{
+  "parent": "zitraksmode:root",
+  "display": {
+    "icon": { "item": "zitraksmode:sperm_bucket" },
+    "title": "§7Отличие быка от коровы...",
+    "description": "§7Бык улыбается при дойке",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": { "milked_bull": { "trigger": "minecraft:impossible" } },
+  "rewards": { "experience": 5 }
+}

@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_porkchop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": [ "minecraft:porkchop" ] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [ "has_porkchop" ]
+  ],
+  "rewards": {
+    "recipes": [
+      "zitraksmode:vetkhiy_minet",
+      "zitraksmode:noviy_omlet"
+    ]
+  }
+}

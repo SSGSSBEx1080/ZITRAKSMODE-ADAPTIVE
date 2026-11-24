@@ -1,0 +1,16 @@
+{
+  "parent": "zitraksmode:19_death/craft_death_note_requiem",
+  "display": {
+    "icon": { "item": "minecraft:wither_skeleton_skull" },
+    "title": "§c§lМастер казни",
+    "description": "§7Испробуй все 6 способов убийства из Тетради.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "all_methods": { "trigger": "zitraksmode:death_note_all_methods" }
+  },
+  "rewards": { "experience": 100 }
+}

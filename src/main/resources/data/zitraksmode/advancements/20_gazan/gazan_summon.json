@@ -1,0 +1,21 @@
+{
+  "parent": "zitraksmode:20_gazan/craft_egg",
+  "display": {
+    "icon": { "item": "zitraksmode:gazan_spawn_egg" },
+    "title": "Вот он - создатель хайпа",
+    "description": "Призовите Газана в этот мир в котором не осталось ничего кроме боли и страданий...",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "summon_gazan": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": { "type": "zitraksmode:gazan" }
+      }
+    }
+  },
+  "rewards": { "experience": 150 }
+}

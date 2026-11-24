@@ -1,0 +1,14 @@
+{
+  "parent": "zitraksmode:21_mahoraga/find_outpost",
+  "display": {
+    "icon": { "item": "zitraksmode:mahoraga_scroll" },
+    "title": "§lWith this treasure i summon...",
+    "description": "§7Призовите Махорагу с помощью свитка",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": { "summoned": { "trigger": "zitraksmode:mahoraga_summoned" } },
+  "rewards": { "experience": 50 }
+}

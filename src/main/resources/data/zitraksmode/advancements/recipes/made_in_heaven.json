@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_clock_and_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:clock"] },
+          { "items": ["minecraft:diamond_block"] }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_clock_and_diamond"]],
+  "rewards": {
+    "recipes": ["zitraksmode:made_in_heaven"]
+  }
+}

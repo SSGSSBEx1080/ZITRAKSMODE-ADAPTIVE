@@ -1,0 +1,19 @@
+{
+  "parent": "zitraksmode:21_mahoraga/kill_mahoraga",
+  "display": {
+    "icon": { "item": "minecraft:player_head" },
+    "title": "§7Колесо перемололо",
+    "description": "§7Умрите от руки Махораги",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "died": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": { "entity": { "type": "zitraksmode:mahoraga" } }
+    }
+  },
+  "rewards": { "experience": 10 }
+}

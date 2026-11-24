@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {"recipes": ["zitraksmode:mud_dildo"]},
+  "criteria": {
+    "has_dirt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["minecraft:dirt"]}]}
+    }
+  },
+  "requirements": [["has_dirt"]]
+}

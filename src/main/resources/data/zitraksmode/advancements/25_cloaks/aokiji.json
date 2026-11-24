@@ -1,0 +1,18 @@
+{
+  "parent": "zitraksmode:25_cloaks/crocodile",
+  "display": {
+    "icon": { "item": "zitraksmode:cloak_aokiji" },
+    "title": { "text": "Хуйню сморозил", "color": "aqua", "bold": true, "italic": true },
+    "description": { "text": "ICE AGE", "color": "white", "italic": true },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "has_aokiji_cloak": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": [ "zitraksmode:cloak_aokiji" ] } ] }
+    }
+  }
+}

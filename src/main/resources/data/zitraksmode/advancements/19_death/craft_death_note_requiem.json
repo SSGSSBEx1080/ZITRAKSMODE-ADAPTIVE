@@ -1,0 +1,19 @@
+{
+  "parent": "zitraksmode:19_death/five_kills",
+  "display": {
+    "icon": { "item": "zitraksmode:death_note_requiem" },
+    "title": "Абсолютная сила",
+    "description": "Создайте Тетрадь смерти Реквием",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "has_requiem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["zitraksmode:death_note_requiem"] }] }
+    }
+  },
+  "rewards": { "experience": 100 }
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "zitraksmode:root",
+  "display": {
+    "icon": { "item": "zitraksmode:cloak_crocodile" },
+    "title": { "text": "Сэр Крокодайл", "color": "gold", "bold": true, "italic": true },
+    "description": { "text": "Я твоей матери ебало разобью...♪", "color": "yellow" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "recipes": [
+      "zitraksmode:cloak_akainu",
+      "zitraksmode:cloak_aokiji",
+      "zitraksmode:cloak_kizaru",
+      "zitraksmode:cloak_sengoku",
+      "zitraksmode:cloak_whitebeard"
+    ]
+  },
+  "criteria": {
+    "has_crocodile_cloak": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": [ "zitraksmode:cloak_crocodile" ] }
+        ]
+      }
+    }
+  }
+}

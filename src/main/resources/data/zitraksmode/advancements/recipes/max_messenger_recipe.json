@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "zitraksmode:max_messenger"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "zitraksmode:max_messenger"
+      }
+    },
+    "has_inventory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": []
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_inventory",
+      "has_the_recipe"
+    ]
+  ]
+}
