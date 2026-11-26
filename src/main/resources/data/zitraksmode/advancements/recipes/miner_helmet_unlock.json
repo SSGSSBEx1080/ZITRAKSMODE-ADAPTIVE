@@ -1,0 +1,24 @@
+{
+  "__comment": "Разблокировать Miner Helmet, когда игрок получает Фонарь (Lantern) и Золотой Шлем (Golden Helmet).",
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:lantern"]
+          },
+          {
+            "items": ["minecraft:golden_helmet"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "zitraksmode:miner_helmet"
+    ]
+  }
+}

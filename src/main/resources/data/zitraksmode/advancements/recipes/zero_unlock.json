@@ -1,0 +1,65 @@
+{
+  "__comment": "Разблокировать Zero (блок) только после того, как игрок разблокировал рецепты всех цифровых блоков (от 1 до 9).",
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_one_unlocked": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "zitraksmode:one"
+      }
+    },
+    "has_two_unlocked": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "zitraksmode:two"
+      }
+    },
+    "has_three_unlocked": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "zitraksmode:three"
+      }
+    },
+    "has_four_unlocked": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "zitraksmode:four"
+      }
+    },
+    "has_five_unlocked": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "zitraksmode:five"
+      }
+    },
+    "has_six_unlocked": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "zitraksmode:six"
+      }
+    },
+    "has_seven_unlocked": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "zitraksmode:seven"
+      }
+    },
+    "has_eight_unlocked": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "zitraksmode:eight"
+      }
+    },
+    "has_nine_unlocked": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "zitraksmode:nine"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "zitraksmode:zero"
+    ]
+  }
+}

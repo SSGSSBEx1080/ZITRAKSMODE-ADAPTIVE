@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_eye"
+    },
+    "title": {
+      "text": "Рецепт: Иммуносупрессант"
+    },
+    "description": {
+      "text": "Получите око Эндера или сильное зелье регенерации, чтобы узнать о подавителе имплантов."
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "has_eye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:ender_eye"]
+          }
+        ]
+      }
+    },
+    "has_potion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:potion"],
+            "nbt": "{Potion:\"minecraft:strong_regeneration\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_eye", "has_potion"]
+  ]
+}

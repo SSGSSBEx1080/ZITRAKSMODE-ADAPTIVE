@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_iron_blocks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:iron_block"], "count": { "min": 3 } }
+        ]
+      }
+    },
+    "has_spyglass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:spyglass"] }
+        ]
+      }
+    },
+    "has_bullet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["zitraksmode:bullet"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "zitraksmode:iron_sniper"
+    ]
+  }
+}

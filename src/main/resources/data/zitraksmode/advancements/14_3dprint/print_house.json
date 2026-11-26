@@ -1,0 +1,16 @@
+{
+  "parent": "zitraksmode:14_3dprint/print_hammer",
+  "display": {
+    "icon": { "item": "minecraft:crafting_table" },
+    "title": "§bСтартовый домик",
+    "description": "§7Распечатай 1 из простейших и легчайших стартовых домиков Димы Скрынника.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "house": { "trigger": "zitraksmode:printer_house_printed" }
+  },
+  "rewards": { "experience": 50 }
+}

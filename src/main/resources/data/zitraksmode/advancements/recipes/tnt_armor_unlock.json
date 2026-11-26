@@ -1,0 +1,26 @@
+{
+  "__comment": "Разблокировать рецепты брони из TNT, когда игрок получает блок TNT.",
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_tnt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tnt"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "zitraksmode:tnt_helmet",
+      "zitraksmode:tnt_chestplate",
+      "zitraksmode:tnt_leggings",
+      "zitraksmode:tnt_boots"
+    ]
+  }
+}

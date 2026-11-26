@@ -1,0 +1,16 @@
+{
+  "parent": "zitraksmode:18_ball/craft_steel_ball",
+  "display": {
+    "icon": { "item": "zitraksmode:steel_ball" },
+    "title": "§bЗолотое Вращение",
+    "description": "§7Урок 5. Идеальное золотое вращение",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "golden": { "trigger": "zitraksmode:steel_ball_golden_rotation" }
+  },
+  "rewards": { "experience": 15 }
+}

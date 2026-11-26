@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {"recipes": ["zitraksmode:creeper_statue"]},
+  "criteria": {
+    "has_eggs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["zitraksmode:creeper_eggs"]}]}
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {"recipe": "zitraksmode:creeper_statue"}
+    }
+  },
+  "requirements": [["has_eggs", "has_the_recipe"]]
+}

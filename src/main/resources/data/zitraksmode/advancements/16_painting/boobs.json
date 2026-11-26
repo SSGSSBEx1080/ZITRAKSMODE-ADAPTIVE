@@ -1,0 +1,16 @@
+{
+  "parent": "zitraksmode:root",
+  "display": {
+    "icon": { "item": "minecraft:painting" },
+    "title": "§d§lBOOBSLANDER",
+    "description": "§7Размести огромную картину патриота на стене. Посхалкоооооо",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "placed": { "trigger": "zitraksmode:painting_boobs_placed" }
+  },
+  "rewards": { "experience": 25 }
+}

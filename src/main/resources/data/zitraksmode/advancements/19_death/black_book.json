@@ -1,0 +1,25 @@
+{
+  "parent": "zitraksmode:root",
+  "display": {
+    "icon": { "item": "zitraksmode:death_note" },
+    "title": "Инструмент судьбы",
+    "description": "Держите в руках книгу и чёрный материал",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  },
+  "criteria": {
+    "has_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:writable_book"] }] }
+    },
+    "has_black_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "tag": "zitraksmode:death_note_black_blocks" }] }
+    }
+  },
+  "requirements": [["has_book"], ["has_black_block"]],
+  "rewards": { "recipes": ["zitraksmode:death_note"] }
+}

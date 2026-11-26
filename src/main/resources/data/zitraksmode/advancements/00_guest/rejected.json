@@ -1,0 +1,18 @@
+{
+  "parent": "zitraksmode:00_guest/mayor",
+  "display": {
+    "icon": { "item": "minecraft:barrier" },
+    "title": "§cЯ тебя запомню пидор сука",
+    "description": "§7Тебе отказали. Ты теперь официально в списке самых жалких существ в мире.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": { "experience": 5 }
+}

@@ -1,0 +1,22 @@
+{
+  "parent": "zitraksmode:22_milk/drink_sperm",
+  "display": {
+    "icon": {
+      "item": "minecraft:shears"
+    },
+    "title": "§6Медный бык",
+    "description": "§7Ты достиг посхалко!!! Включаем вентиляторы!!!卍.卍.卍.卍.卍",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "copper_bull": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 25
+  }
+}

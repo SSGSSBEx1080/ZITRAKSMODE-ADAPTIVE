@@ -1,0 +1,18 @@
+{
+  "parent": "zitraksmode:00_guest/water_bang",
+  "display": {
+    "icon": { "item": "minecraft:stone" },
+    "title": "§8Первый раз в пещере",
+    "description": "§7Ты потрахался в пещере на глубине 30 блоков. *В залупу заполз пещерный паук*.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": { "experience": 50 }
+}

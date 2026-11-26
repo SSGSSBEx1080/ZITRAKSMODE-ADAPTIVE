@@ -1,0 +1,19 @@
+{
+  "parent": "zitraksmode:17_koran/craft_noviy_omlet",
+  "display": {
+    "icon": { "item": "zitraksmode:koran" },
+    "title": "§c§lКоран",
+    "description": "§7\"Аллах один, закон един — кого ебём, того едим\"\n§7\"Прими Ислам вдувай ослам\"",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["zitraksmode:koran"] }] }
+    }
+  },
+  "rewards": { "experience": 50 }
+}

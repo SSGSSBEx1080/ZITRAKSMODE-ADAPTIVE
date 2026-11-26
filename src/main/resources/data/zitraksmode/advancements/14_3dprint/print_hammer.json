@@ -1,0 +1,16 @@
+{
+  "parent": "zitraksmode:14_3dprint/craft_printer",
+  "display": {
+    "icon": { "item": "zitraksmode:stone_dildo" },
+    "title": "§aПеревёрнутый молоток",
+    "description": "§7Распечатай легендарную постройку, быстрее чем любой спидбилдер.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "hammer": { "trigger": "zitraksmode:printer_hammer_printed" }
+  },
+  "rewards": { "experience": 20 }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {"recipes": ["zitraksmode:obsidian_dildo"]},
+  "criteria": {
+    "has_obsidian": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["minecraft:obsidian"]}]}},
+    "has_the_recipe": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "zitraksmode:obsidian_dildo"}}
+  },
+  "requirements": [["has_obsidian", "has_the_recipe"]]
+}

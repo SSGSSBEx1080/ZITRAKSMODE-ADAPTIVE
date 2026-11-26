@@ -1,0 +1,25 @@
+{
+  "parent": "zitraksmode:20_gazan/trade_gazan",
+  "display": {
+    "icon": { "item": "minecraft:redstone" },
+    "title": "Конец хайпа",
+    "description": "Убей Газана. Медиа-похороны.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "zitraksmode:gazan"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 25
+  }
+}

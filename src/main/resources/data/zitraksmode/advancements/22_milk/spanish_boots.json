@@ -1,0 +1,31 @@
+{
+  "parent": "zitraksmode:22_milk/copper_wool",
+  "display": {
+    "icon": {
+      "item": "zitraksmode:spanish_boots"
+    },
+    "title": "§4Испанские сапоги",
+    "description": "§7Посхалка продолжается... ",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "has_spanish_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zitraksmode:spanish_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

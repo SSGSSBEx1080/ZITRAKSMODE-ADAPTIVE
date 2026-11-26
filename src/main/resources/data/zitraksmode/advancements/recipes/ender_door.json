@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "zitraksmode:ender_door"
+    ]
+  },
+  "criteria": {
+    "has_obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": [ "minecraft:obsidian" ] } ]
+      }
+    },
+    "has_iron_door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": [ "minecraft:iron_door" ] } ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "zitraksmode:ender_door"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_obsidian",
+      "has_iron_door",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ender_eye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:ender_eye"]
+          }
+        ]
+      }
+    },
+    "has_obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:obsidian"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ender_eye",
+      "has_obsidian"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "zitraksmode:ender_furnace",
+      "zitraksmode:double_ender_chest",
+      "zitraksmode:reinforced_ender_glass",
+      "zitraksmode:ender_door",
+      "zitraksmode:ender_trapdoor",
+      "zitraksmode:ender_button",
+      "zitraksmode:ender_pressure_plate"
+    ]
+  }
+}

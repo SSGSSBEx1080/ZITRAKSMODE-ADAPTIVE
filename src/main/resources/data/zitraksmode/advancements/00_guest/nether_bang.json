@@ -1,0 +1,18 @@
+{
+  "parent": "zitraksmode:00_guest/ender_bang",
+  "display": {
+    "icon": { "item": "minecraft:netherrack" },
+    "title": "§4Первый раз в Незере",
+    "description": "§7Ты потрахался в Аду. Чего не сделаешь чтобы опустошить яйца.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": { "experience": 10 }
+}

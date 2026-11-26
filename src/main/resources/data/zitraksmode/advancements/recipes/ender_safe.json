@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "zitraksmode:ender_safe"
+    ]
+  },
+  "criteria": {
+    "has_obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": [ "minecraft:obsidian" ] } ]
+      }
+    },
+    "has_ender_chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": [ "minecraft:ender_chest" ] } ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "zitraksmode:ender_safe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_obsidian",
+      "has_ender_chest",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "zitraksmode:21_mahoraga/summon_mahoraga",
+  "display": {
+    "icon": { "item": "zitraksmode:mahoraga_scroll" },
+    "title": "§lАдаптация сломана",
+    "description": "§7Убейте Махорагу (достаточно нанести хоть 1 урон)",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": { "killed": { "trigger": "zitraksmode:mahoraga_killed" } },
+  "rewards": { "experience": 200 }
+}

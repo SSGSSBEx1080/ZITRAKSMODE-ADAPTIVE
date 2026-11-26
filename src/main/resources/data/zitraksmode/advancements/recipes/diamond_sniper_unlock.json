@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_diamond_blocks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:diamond_block"], "count": { "min": 8 } }
+        ]
+      }
+    },
+    "has_golden_sniper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["zitraksmode:golden_sniper"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "zitraksmode:diamond_sniper"
+    ]
+  }
+}

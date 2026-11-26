@@ -1,0 +1,19 @@
+{
+  "parent": "zitraksmode:15_hentaipron/craft_hentai",
+  "display": {
+    "icon": { "item": "zitraksmode:hentai_block" },
+    "title": "§aПервый экспонат",
+    "description": "§7Пойми суть работы блока и осознай полный потанцеал.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": { "block": "zitraksmode:hentai_block" }
+    }
+  },
+  "rewards": { "experience": 5 }
+}

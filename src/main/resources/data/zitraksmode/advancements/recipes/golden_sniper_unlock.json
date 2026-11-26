@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gold_blocks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:gold_block"], "count": { "min": 8 } }
+        ]
+      }
+    },
+    "has_iron_sniper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["zitraksmode:iron_sniper"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "zitraksmode:golden_sniper"
+    ]
+  }
+}

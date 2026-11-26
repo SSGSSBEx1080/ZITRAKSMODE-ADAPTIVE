@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {"recipes": ["zitraksmode:super_tnt"]},
+  "criteria": {
+    "has_charged_eggs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["zitraksmode:charged_creeper_eggs"]}]}
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {"recipe": "zitraksmode:super_tnt"}
+    }
+  },
+  "requirements": [["has_charged_eggs", "has_the_recipe"]]
+}

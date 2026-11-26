@@ -1,0 +1,14 @@
+{
+  "parent": "zitraksmode:root",
+  "display": {
+    "icon": { "item": "minecraft:ender_eye" },
+    "title": "§lСледы божества",
+    "description": "§7Найдите заброшенный аванпост Махораги",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": { "found": { "trigger": "zitraksmode:find_mahoraga_outpost" } },
+  "rewards": { "experience": 100 }
+}

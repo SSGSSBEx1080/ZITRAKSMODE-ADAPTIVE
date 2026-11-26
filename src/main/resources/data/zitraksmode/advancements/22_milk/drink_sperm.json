@@ -1,0 +1,14 @@
+{
+  "parent": "zitraksmode:22_milk/hero_of_village",
+  "display": {
+    "icon": { "item": "zitraksmode:sperm_bucket" },
+    "title": "§lЗавтрак чемпиона",
+    "description": "§7Витамины: B12, B2, 02, цинк, белок, дофамин, Долбоебин, L-пидорин. Тоесть примерно как состав энергетического напитка Pulse Up в банке.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": { "drank": { "trigger": "minecraft:impossible" } },
+  "rewards": { "experience": 50 }
+}

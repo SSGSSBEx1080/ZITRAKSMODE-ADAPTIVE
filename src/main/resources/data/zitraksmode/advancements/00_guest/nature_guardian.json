@@ -1,0 +1,18 @@
+{
+  "parent": "zitraksmode:00_guest/forest_king",
+  "display": {
+    "icon": { "item": "minecraft:jungle_sapling" },
+    "title": "§aЗащитник природы",
+    "description": "§7Гретта Тумблер бомбит Ирак гуманитарными дилдаками из нехаляльного мяса шахедов сыновей Усама Бен-Ладана.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": { "experience": 10 }
+}

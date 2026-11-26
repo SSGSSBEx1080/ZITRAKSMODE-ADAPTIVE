@@ -1,0 +1,18 @@
+{
+  "parent": "zitraksmode:00_guest/animal_lover",
+  "display": {
+    "icon": { "item": "minecraft:wheat" },
+    "title": "§2Фермер-извращенец",
+    "description": "§7Ты выебал всех 9-ых животных. Теперь ты официально сотрудник Ростелекома!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": { "experience": 50 }
+}

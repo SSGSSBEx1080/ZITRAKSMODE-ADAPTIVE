@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_six": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["zitraksmode:six"] }]
+      }
+    },
+    "has_seven": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["zitraksmode:seven"] }]
+      }
+    }
+  },
+  "requirements": [ ["has_six", "has_seven"] ],
+  "rewards": {
+    "recipes": ["zitraksmode:gazan_spawn_egg"]
+  }
+}

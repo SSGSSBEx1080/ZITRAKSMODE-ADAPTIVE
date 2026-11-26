@@ -1,0 +1,18 @@
+{
+  "parent": "zitraksmode:00_guest/rejected",
+  "display": {
+    "icon": { "item": "minecraft:oak_sapling" },
+    "title": "§2Король леса",
+    "description": "§7А в лесу, а в лесу, волки выебли лису.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": { "experience": 10 }
+}

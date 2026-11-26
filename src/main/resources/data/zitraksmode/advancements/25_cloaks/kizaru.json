@@ -1,0 +1,18 @@
+{
+  "parent": "zitraksmode:25_cloaks/akainu",
+  "display": {
+    "icon": { "item": "zitraksmode:cloak_kizaru" },
+    "title": { "text": "Нахуй локдаун, сука гет даун", "color": "yellow", "bold": true, "italic": true },
+    "description": { "text": "Ствол у виска клик-клек пиу-пау, нахуй чётотам, кого-то въебал", "color": "gold" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "has_kizaru_cloak": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": [ "zitraksmode:cloak_kizaru" ] } ] }
+    }
+  }
+}

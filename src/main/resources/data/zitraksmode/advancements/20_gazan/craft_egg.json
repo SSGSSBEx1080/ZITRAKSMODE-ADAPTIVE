@@ -1,0 +1,16 @@
+{
+  "parent": "zitraksmode:20_gazan/blocks_67",
+  "display": {
+    "icon": { "item": "zitraksmode:gazan_spawn_egg" },
+    "title": "Яйцо Газана",
+    "description": "Скрафти яйцо призыва известного музыкального исполнителя.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "craft": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["zitraksmode:gazan_spawn_egg"] }] } }
+  },
+  "rewards": { "experience": 10 }
+}

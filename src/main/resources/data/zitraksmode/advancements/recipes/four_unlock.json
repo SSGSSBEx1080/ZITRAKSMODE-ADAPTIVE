@@ -1,0 +1,22 @@
+{
+  "__comment": "Разблокировать Four (блок), когда игрок получает уголь ИЛИ кварц.",
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:coal"] }]
+      }
+    },
+    "has_quartz": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:quartz"] }]
+      }
+    }
+  },
+  "requirements": [ ["has_coal", "has_quartz"] ],
+  "rewards": {
+    "recipes": ["zitraksmode:four"]
+  }
+}

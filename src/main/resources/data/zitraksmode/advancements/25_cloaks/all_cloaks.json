@@ -1,0 +1,28 @@
+{
+  "parent": "zitraksmode:25_cloaks/whitebeard",
+  "display": {
+    "icon": {
+      "item": "zitraksmode:cloak_kizaru"
+    },
+    "title": {
+      "text": "ВАН ПИС ФАГ",
+      "color": "light_purple",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "В КОЛЛЕКЦИИ ЕЩЁ МНОГО МЕСТА",
+      "color": "gold",
+      "italic": true
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "collection": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

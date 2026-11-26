@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:emerald"] }]
+      }
+    },
+    "has_iron_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:iron_block"] }]
+      }
+    }
+  },
+  "requirements": [
+    ["has_emerald"],
+    ["has_iron_block"]
+  ],
+  "rewards": {
+    "recipes": ["zitraksmode:steel_ball"]
+  }
+}
